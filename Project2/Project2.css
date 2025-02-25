@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    background: url(https://media.cgtrader.com/variants/qLRJ3J5EhtfaJ8g6hxXUfvwv/508c09fe26e63b93baec6d888aa2950650a509b5e04f2f03a4f2af52a04363ea/Render%202.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color:cadetblue ;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size:2rem ;
+    padding: 10px;
+    color:beige;
+    width: 50px;
+}
+#play{
+    background-color: brown;
+}
+#pause{
+    background-color: blue;
+}
+#reset{
+    background-color: blueviolet;
+}
